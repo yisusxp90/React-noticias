@@ -19,7 +19,6 @@ class Formulario extends Component {
             <div className="buscador row">
                 <div className="col s12 m8 offset-m2">
                     <form onSubmit={this.filtrar}>
-                        <h2>Noticias.</h2>
                         <div className="input-field col s12 m5">
                             <select ref={this.paisRef}>
                                 <option value="VE" defaultValue>Venezuela</option>
